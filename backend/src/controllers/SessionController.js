@@ -13,8 +13,6 @@ module.exports = {
             user = await User.create({email});
         }
 
-        // const user = await User.create({ email });
-
         return res.json(user);
     }
 };
